@@ -1,0 +1,66 @@
+#Menu{
+    padding: 25px 0 25px 0;
+        
+
+}
+#section{
+     padding:25px 0 25px 0;
+      text-aligen:centre;
+     font size: 3rem;
+     font family: verdana;
+     margin right:50%;
+}
+#menu_row{
+    display: flex;
+    padding: 0 100px 0 100px;
+    text-align: center;
+
+}
+#menu_col{
+    box-shadow: 2px 2px 2px rgb(65, 65, 65);
+    border:1px solid gray;
+    background-color: rgb(204, 120, 120);
+     margin-right: 50px;
+     padding: 20px;
+     text-align:center;
+      flex:1;
+}
+#menu_col h2{
+    background-color: rgb(190, 55, 55);
+    color:rgb(17, 17, 17);
+    text-align: centre;
+    padding: 5px;
+    font-family:cursive
+}
+#image{
+    width: 160px;
+    height: 160px;
+    border-radius: 70%;
+    padding : 7px;
+    text-align: center;
+    boreder: 2px solid rgb(189, 219, 243);
+
+}
+#image img{
+    width: 150%;
+    height: 150%;
+    text-align: center;
+    right margin: 50px;
+     border-radius:50%;
+     float: left;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: centre;
+    margin: 40px;
+}
+
+h3 ,h4 {
+    color: rgb(243, 242, 242);
+}
+
+
+
