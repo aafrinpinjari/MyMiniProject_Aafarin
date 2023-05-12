@@ -8,7 +8,7 @@
 }
 body{
     min-height: 100vh;
-    background-image: url(./Image/rest.jpg);
+    background-image: url(./Image/backgnd.webp);
     background-size: cover;
     opacity: 0.9;
 
@@ -42,21 +42,21 @@ body{
 
 }
 .contact-form h2{
-    color:#141414;
+    color:#f3ebeb;
     text-align: center;
     font-size: 35px;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 .contact-form .text-box{
-    background: #000;
+    background: #131212;
     border: none;
     width:calc(50%-10px);
     height: 50px;
     padding: 12px;
     font-size: 15px;
     border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(240, 233, 233, 0.1);
     margin-bottom: 20px;
     opacity: 0.9;
 }
@@ -74,14 +74,14 @@ body{
     max-height: 400px;
     resize:vertical;
     border-radius: 5px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 1px rgba(192, 182, 182, 0.1);
     margin-bottom: 20px;
     opacity: 0.9;
 }
 .contact-form .send-btn{
     float: right;
     background: #2E94E3;
-    color: #fff;
+    color: #0e0d0d;
     border: none;
      width:200px;
      height:100px;
@@ -135,4 +135,20 @@ alert-error{
     top:10px;
     border-left: 8px solid rgb(227, 238, 166);
     border-radius: 4px;
+}
+
+
+#btn {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+
+#btn:hover {
+    background-color: darkgreen;
 }

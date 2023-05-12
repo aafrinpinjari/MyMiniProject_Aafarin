@@ -3,12 +3,21 @@
         
 
 }
+body{
+    min-height: 100vh;
+    background-image:url(./Image/bg.jpg);
+    background-size: cover;
+    opacity: 0.9;
+
+    justify-content:center;
+    align-items: center;
+}
 #section{
      padding:25px 0 25px 0;
       text-aligen:centre;
      font size: 3rem;
      font family: verdana;
-     margin right:50%;
+     margin right: 6px;
 }
 #menu_row{
     display: flex;
@@ -18,15 +27,13 @@
 }
 #menu_col{
     box-shadow: 2px 2px 2px rgb(65, 65, 65);
-    border:1px solid gray;
-    background-color: rgb(204, 120, 120);
-     margin-right: 50px;
+     margin-right: 80px;
      padding: 20px;
      text-align:center;
       flex:1;
 }
 #menu_col h2{
-    background-color: rgb(190, 55, 55);
+    background-color: rgb(27, 27, 27);
     color:rgb(17, 17, 17);
     text-align: centre;
     padding: 5px;
@@ -38,7 +45,7 @@
     border-radius: 70%;
     padding : 7px;
     text-align: center;
-    boreder: 2px solid rgb(189, 219, 243);
+    border: 2px solid rgb(189, 219, 243);
 
 }
 #image img{
@@ -59,7 +66,7 @@
 }
 
 h3 ,h4 {
-    color: rgb(243, 242, 242);
+    color: rgb(10, 10, 10);
 }
 
 
